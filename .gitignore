@@ -1,0 +1,45 @@
+# --- Build directories ---
+build/
+out/
+bin/
+lib/
+
+# --- CMake files ---
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+
+# --- Compiled object & binaries ---
+*.o
+*.obj
+*.so
+*.dll
+*.dylib
+*.exe
+*.out
+*.a
+*.lib
+
+# --- Logs & debug ---
+*.log
+*.tmp
+*.swp
+*.swo
+*.bak
+*.stackdump
+
+# --- IDE/project files ---
+.vscode/
+.idea/
+*.code-workspace
+
+# --- macOS/Linux specific ---
+.DS_Store
+*.dSYM/
+.cache/
+
+# --- Windows specific ---
+Thumbs.db
+ehthumbs.db
+Desktop.ini
