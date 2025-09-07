@@ -12,12 +12,22 @@ private:
     unsigned int _capacity;
 
 public:
+    typedef T *iterator;
+
     Vector();
     Vector(unsigned int size);
-    T &operator[](unsigned int index);
-    unsigned int size() const;
-    void push_back(const T &value);
     ~Vector();
+
+    unsigned int size() const;
+    bool empty() const;
+    void push_back(const T &value);
+    void pop_back();
+
+    T &operator[](unsigned int index);
+    T &front();
+    T &back();
+    iterator begin();
+    iterator end();
 };
 
 #endif // VECTOR_H
